@@ -3,13 +3,15 @@ import './App.css';
 import CakeComponent from './components/CakeComponent';
 import store from './redux/store';
 import CakeHooksComponent from './components/CakeHooksComponent';
+import IceCreamHooksComp from './components/IceCreamHooksComp';
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        {/* <CakeComponent /> */}
+        <CakeComponent />
         <CakeHooksComponent />
+        <IceCreamHooksComp />
       </div>
     </Provider>
   );

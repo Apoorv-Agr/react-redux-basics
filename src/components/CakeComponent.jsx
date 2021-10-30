@@ -16,7 +16,7 @@ const CakeComponent = (props) => {
 
 const mapStateToProps = (appState) => {
   return {
-    numOfCakes: appState.numOfCake,
+    numOfCakes: appState.cake.numOfCake,
   };
 };
 

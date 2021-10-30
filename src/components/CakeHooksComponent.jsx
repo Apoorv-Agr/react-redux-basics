@@ -5,7 +5,7 @@ import { buyCakeAction } from "../redux/cake/cakeActions";
 
 const CakeHooksComponent = () => {
   const numOfCakes = useSelector((appState) => {
-    return appState.numOfCake;
+    return appState.cake.numOfCake;
   });
   const dispatch = useDispatch();
   const buyCake = () => {
