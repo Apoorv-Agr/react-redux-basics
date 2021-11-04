@@ -1,11 +1,9 @@
 import React from "react";
 
 import { connect } from "react-redux";
-
 import { buyCakeAction } from "../redux/cake/cakeActions";
 
 const CakeComponent = (props) => {
-  console.log("props : ", props);
   return (
     <div>
       <h2>Number Of Cakes : {props.numOfCakes}</h2>

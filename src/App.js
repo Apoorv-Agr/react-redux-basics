@@ -4,6 +4,7 @@ import CakeComponent from './components/CakeComponent';
 import store from './redux/store';
 import CakeHooksComponent from './components/CakeHooksComponent';
 import IceCreamHooksComp from './components/IceCreamHooksComp';
+import NewDynamicCakeComponent from './components/NewDynamicCakeComponent';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="App">
         <CakeComponent />
         <CakeHooksComponent />
+        <NewDynamicCakeComponent />
         <IceCreamHooksComp />
       </div>
     </Provider>
