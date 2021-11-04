@@ -14,7 +14,7 @@ const IceCreamHooksComp = () => {
   return (
     <div>
       <h2>Number Of Cakes : {numOfIceCreams}</h2>
-      <button onClick={buyIceCreamFn}>Buy Cake</button>
+      <button onClick={buyIceCreamFn}>Buy Ice-Creams</button>
     </div>
   );
 };
