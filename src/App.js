@@ -15,8 +15,8 @@ function App() {
         <ItemContainerComponent cake={true} />
         <CakeComponent />
         <CakeHooksComponent />
-        <NewDynamicCakeComponent />
         <IceCreamHooksComp />
+        <NewDynamicCakeComponent />
       </div>
     </Provider>
   );
